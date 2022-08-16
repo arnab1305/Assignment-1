@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <title>Assignment 1</title>
+    <link rel="stylesheet" href="../style/index.style.css" />
+    <script src="../script/index.js"></script>
+  </head>
+  <body>
+    <div class="login-container">
+      <form name="add-form" action="">
+        <label class="form-input-label">Name</label>
+        <input
+          class="form-input"
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Name"
+        />
+        <div class="form-input-drop">
+          <label class="form-input-label-drop" for="category"
+            >Choose a category</label
+          >
+          <select name="category" id="categories">
+            <option value="News Videos">News Videos</option>
+            <option value="Songs">Songs</option>
+            <option value="Animals">Animals</option>
+          </select>
+        </div>
+
+        <label class="form-input-label">Image</label>
+        <input
+          class="form-input"
+          type="text"
+          name="image"
+          id="image"
+          placeholder="Image URL"
+        />
+        <a class="form-button" onclick="return add()">Add</a>
+      </form>
+    </div>
+  </body>
+</html>

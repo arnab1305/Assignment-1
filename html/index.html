@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <title>Assignment 1</title>
+    <link rel="stylesheet" href="../style/index.style.css" />
+    <script src="../script/index.js"></script>
+    <script src="../script/store.js"></script>
+  </head>
+  <body>
+    <div class="login-container">
+      <form name="login-form" action="">
+        <label class="form-input-label">Username</label>
+        <input
+          class="form-input"
+          type="text"
+          name="username"
+          id="username"
+          placeholder="Username"
+        />
+        <label class="form-input-label">Password</label>
+        <input
+          class="form-input"
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Password"
+        />
+        <div class="error-msg" id="ebox"></div>
+        <a class="form-button" onclick="validateForm()">Login</a>
+      </form>
+    </div>
+  </body>
+</html>
